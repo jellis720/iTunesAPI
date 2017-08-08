@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+audio {
+  background-color: black;
+  font-size: 16px;
+  width: 50%;
+  margin: 0 10px 2vw;
+}
+
+input {
+  font-size: 12px;
+  padding: 6px;
+  width: 20%;
+  margin: 0;
+}
+
+.goButton{
+  background-color: black;
+  color: white;
+  border: white 1px solid;
+  font-family: 'Amatic SC', cursive;
+  padding: 6px;
+  width: 50px;
+  margin: 0;
+}
+
+.track {
+  font-size: 16px;
+  padding: .5em;
+  background-color: white;
+}
+
+img {
+  text-align: center;
+  overflow: hidden;
+  width: 160px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.search {
+  padding: 1.5em 1em;
+}
+
+#results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resultBubble {
+  width: 25%;
+  height: 350px;
+  align-self: flex-start;
+  margin-bottom: 15px;
+}
+
+.track {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: red;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.artist {
+  font-size: 14px;
+  margin: 5px;
+}
+
+.topImage{
+  height: 60%;
+}
+
+.bottomResult{
+  height: 40%;
+}
